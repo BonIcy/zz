@@ -112,7 +112,7 @@
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
-    font-size: 60%; 
+    font-size:.849rem; 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -167,6 +167,7 @@
   height: 100%;
   object-fit: cover;
   transition: all 500ms ease-out;
+  
 }
 
 
@@ -175,17 +176,19 @@
     top:0;
     width: 100%;
     height: 100%;
-    font-size: 0.7rem;
+    font-size: 1rem;
     background: #37202f;;
     color: white;
     text-align: center;
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
+    padding-top: 4%;
 }
 @media (max-width:765px){
   #accordionFlushExample #figure .cinf{
-    font-size: 0.8rem;
+    font-size: 1.15rem;
+
 }
 }
 #accordionFlushExample #figure:hover > .cinf{
