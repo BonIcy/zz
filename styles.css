@@ -246,6 +246,10 @@
   z-index: 9;  
   
 }
+#logos{
+  width: 17vh;
+  height: 17vh;
+}
 #logos:hover{
   cursor: pointer;
   z-index: 10;
@@ -460,8 +464,20 @@ transition: all 500ms ease-out;
   #LV label{
     font-size: .7rem;
   }
+  #accordionFlushExample #figure .cinf {
+    font-size: 0.55rem;
+  }
+  #figur p{
+    font-size: .7rem;
+    
+
+  }
+  .zzz p{
+    font-size: .6rem;
+  }
   #container7 iframe{
 
+  
     width: 360px;
     height: 300px;
   }
