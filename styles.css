@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+#nv{
+  background-color: rgb(0, 0, 0); 
+  z-index: 20;
+  position:relative;
+  left:0; 
+}
+
+#nv li:hover{
+  background-color:rgba(207, 12, 12, 0.205);
+  color: white;
+}
+
+#imgg{
+    filter: brightness(36%);
+    height: 95vh;
+    object-fit: cover;
+    
+}
+
+#botonesinicio{
+  background-color: rgba(180, 19, 19, 0.781);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  
+  
+}
+
+#botonesinicio:hover{
+  transform: scale(1.1);
+  background-color:  rgba(207, 12, 12, 0.658);
+  border: 2px solid rgb(110, 16, 16);
+}
+
+#container2, #container3, #container4, #container6, #container7{
+    background-color: #030608;
+}
+#carouselExampleControlsNoTouching{
+  padding: 0 10%;
+}
+#container2 h2{
+  font-size: 3rem;
+}
+
+#titulo2{
+    color: white;
+}
+.aea img{
+    height: 34vh;
+    width: 31vh;
+    object-fit: cover;
+    padding: 0 2vh;
+}
+
+.txxt h1{
+    color: white;
+    padding-left:4%;
+    padding-right: 4%;
+}
+
+
+
+.interno{
+    background-color: #8F8F8F;
+    
+}
+#cntinfdere p{
+    font-size: 1.6vh;
+}
+
+
+
+.aea{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aea .ffg{
+  position: relative;
+    height: 36vh;
+    width: 32vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.aea .ffg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 500ms ease-out;
+}
+.aea .ffg .favin {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    padding: 3% 6%;
+    background: #10202A;;
+    color: white;
+    text-align: center;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 60%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.aea .ffg:hover > .favin{
+    opacity: 1;
+    visibility: visible;
+}
+.aea .ffg:hover > .favin h3{
+  margin-top: 12%;
+  margin-bottom: 2%;
+  
+  transition: all 500ms ease-out;
+}
+
+
+
+.aea .ffg:hover >.favin p{
+  margin-top: 1%;
+  transition: all 500ms ease-out;
+}
+.aea .ffg:hover{
+    cursor: pointer;
+    z-index:10;
+    transform: scale(1.15);
+    height: 36vh;
+}
+#LV label{
+  font-size: 1.15rem;
+  gap: 2%;
+}
+#accordionFlushExample {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accordionFlushExample #figure{
+    position: relative;
+    height: 55vh;
+    width: 25vh;
+    overflow: hidden;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+#accordionFlushExample #figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 500ms ease-out;
+}
+
+
+#accordionFlushExample #figure .cinf{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    font-size: 0.7rem;
+    background: #37202f;;
+    color: white;
+    text-align: center;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+@media (max-width:765px){
+  #accordionFlushExample #figure .cinf{
+    font-size: 0.4rem;
+}
+}
+#accordionFlushExample #figure:hover > .cinf{
+    opacity: 1;
+    visibility: visible;
+}
+
+#contineall1, #contineall2, #contineall3, #contineall4, #contineall5{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0s ease;  
+}
+.labels label{
+  color: white;
+  cursor: pointer;
+  transition: all 400ms ease;
+  text-decoration: underline white;
+}
+.labels label:hover{
+  color: gray;
+  text-decoration: underline gray;
+}
+/*  */
+ #valorantcheck, #Isaaccheck, #Minecraftcheck, #Robloxcheck, #Terrariacheck{
+  display: none;
+}  
+#Minecraftcheck:checked + #contineall3{
+  max-height: 100%;
+}
+#Robloxcheck:checked + #contineall4{
+  max-height: 100%;
+}
+#Terrariacheck:checked + #contineall5{
+  max-height: 100%;
+}
+#Isaaccheck:checked + #contineall2{
+  max-height: 100%;
+}
+#valorantcheck:checked + #contineall1{
+  max-height: 100%;
+}
+
+.iconitosjueg{
+  padding: 7% 10% 4% 10% ;
+}
+.iconitosjueg img{
+  width: 50%;
+  height: 50%;
+}
+
+.txxt h1{
+  font-size: 4rem;
+}
+
+.interno img{
+  
+  position:static;
+  z-index: 9;  
+  
+}
+#logos:hover{
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(1.2);
+}
+
+
+#infos{
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+#container3 h1{
+  padding-top: 13%;
+  font-size: 4rem;
+}
+#conteiner5{
+  background-color: #37202f;
+}
+/*section 7  */
+
+#acor{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#acor #figur{
+  object-fit: fill;
+  width: auto;
+  height: auto;
+}
+#acor #figur:hover{
+cursor: pointer;
+z-index:10;
+transform: scale(0.9);
+}
+
+#acor #figur img{
+object-fit: cover;
+transition: all 500ms ease-out;
+}
+#acor #figur .cinfo{
+  position: absolute;
+  top:0;
+  width: auto;
+  display: grid;
+  place-items: center;
+  height: 100%; 
+  background: #10202A;
+  color: wheat;
+  text-align: center;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#acor #figur:hover > .cinfo{
+  opacity: 1;
+  visibility: visible;
+}
+#acor #figu:hover > .cinfo h3{
+  transition: all 500ms ease-out;
+}
+
+
+.abc .zzz{
+  position: relative;
+
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0, 0.50);
+  cursor: pointer;
+}
+
+#imgtrailers img{
+  width: 30vh;
+  height: 100%;
+}
+
+.abc .zzz .gfinal{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  padding: 1%;
+  background: rgba(177, 45, 45, 0.418);
+  color: white;
+  text-align: center;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.abc .zzz:hover > .gfinal{
+  opacity: 1;
+  visibility: visible;
+}
+.abc .zzz:hover > .gfinal h3{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  transition: all 500ms ease-out;
+}
+.abc .zzz:hover > img{
+  visibility: hidden;
+}
+.abc .zzz:hover > .gfinal p{
+  margin-top: 1%;
+  transition: all 500ms ease-out;
+}
+
+.abc .zzz:hover{
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(0.95);
+}
+
+
+
+#imgpromosss img{
+  width: 100%;
+  height: 100%;
+}
+
+#especial{
+  object-fit: cover;
+}
+#actualiza{
+  background-color: rgba(177, 45, 45, 0.418);
+  border: 4px solid rgb(83, 4, 4);
+  font-size: 1.3rem;
+  width: 90%;
+}
+/*   */
+
+/*  */
+@media (max-width:992px){
+
+  #container3 h1{
+    padding-top: 0%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+
+@media (max-width:765px){
+  #acor{ 
+    width: 100%;
+   height: 100%;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+  #accordionFlushExample #figure{
+      height: 30vh;
+      width: 65vh;
+      object-fit: fill;
+  }
+  #accordionFlushExample #figure:hover{
+    cursor: pointer;
+    z-index:10;
+    transform: scaleY(1.2);
+    height: 30vh;
+  }
+  #accordionFlushExample #figure img{
+    width: 100%;
+    height: 170%;
+    object-fit: cover;
+    transition: all 500ms ease-out;
+  }
+  #accordionFlushExample #figure .cinf{
+      position: absolute;
+      top:0;
+      height: 30vh;
+      width: 65vh;
+      background: #37202f;;
+      color: white;
+      text-align: center;
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+  }
+  #accordionFlushExample #figure:hover > .cinf{
+      opacity: 1;
+      visibility: visible;
+  }
+  #accordionFlushExample #figure:hover > .cinf h2{
+      transition: all 500ms ease-out;
+  }
+  
+}
+
+
+@media (min-width:766px){
+  #accordionFlushExample #figure:hover > .cinf h2{
+    margin-top: 18%;
+    margin-bottom: 10%;
+    transition: all 500ms ease-out;
+  }
+  #accordionFlushExample #figure:hover{
+    cursor: pointer;
+    z-index:10;
+    transform: scale(1.2);
+    width: 40vh;
+  }
+
+}
+
+@media (max-width:576px){
+  #LV label{
+    font-size: .7rem;
+  }
+  #container7 iframe{
+
+    width: 360px;
+    height: 300px;
+  }
+  #imgtrailers img{
+    width: 110px;
+    height: 140px;
+  }
+  #imgpromosss img{
+    width: 360px;
+    height: 200px;
+  }
+  #accordionFlushExample #figure .cinf{
+    position: absolute;
+    top:0;
+    height: 20vh;
+    width: 40vh;
+    background: #37202f;;
+    color: white;
+    text-align: center;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+#accordionFlushExample #figure{
+  height: 20vh;
+  width: 40vh;
+  object-fit: fill;
+}
+#accordionFlushExample #figure:hover{
+  cursor: pointer;
+  z-index:10;
+  transform: scaleY(1.2);
+  height: 20vh;
+}
+}
+

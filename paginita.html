@@ -1,0 +1,1069 @@
+
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Force</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" async integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" async integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-sm navar-dark w-100 p-3 position-absolute mt-3 " id="nv">
+        <div class="collapse navbar-collapse container-fluid mt-3 navar-dark " id="nv">
+            <a class="navbar-brand mx-0 mt-2 text-white" href="#">
+                Nuestros VideoJuegos↓
+            </a>
+          <div class="collapse navbar-collapse justify-content-end  bd-highlight  " >
+            <ul class="navbar-nav ">
+              <li class="nav-item "> 
+                <a class="nav-link bg-light text-dark " href="#aboutus"> ¿Quienes somos? --></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>   
+      <div class="">
+        <nav class="navbar position-relative navbar-expand-lg navbar-dark bg-dark w-100 text-decoration-none pt-3 mt-4 container-fluid " style="background-color: black;">
+          <div class="container-fluid text-center position-fixed fixed-top" id="nv">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="" width="190" height="70" class="d-inline-block align-text-center">          
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-start " id="navbarNav">
+              <ul class="navbar-nav "> 
+                <li class="nav-item p-3 p-lg-0">
+                  <a class="nav-link  " aria-current="page" href="#Diviertete">Juegos</a>
+                <li class="nav-item p-3 p-lg-0">
+                  <a class="nav-link" aria-current="page" href="#juegos">Especialidades</a>
+                </li>
+                <li class="nav-item p-3 p-lg-0">
+                  <a class="nav-link" aria-current="page" href="#Desarrolladores">Desarrolladores</a>
+                </li>
+                <li class="nav-item p-3 p-lg-0">
+                  <a class="nav-link" aria-current="page" href="#Creadores">Creadores</a>
+                </li>
+                <li class="nav-item p-3 p-lg-0">
+                  <a class="nav-link" aria-current="page" href="#Nuevos">Nuevos</a>
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> 
+      </div> 
+    </header>
+    <section>
+        <!-- carrusel inicial-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+           </div>
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active w-100 h-100">
+              <img src="img/Minecraftcarrusel.webp" class="d-block w-100 " alt="..." id = "imgg">
+              <div class="carousel-caption  d-md-block">
+                <h1>MINECRAFT</h1>
+                <p>Minecraft es para ti si eres un aventurero, diviertete explorando en mundo abierto, vence a tus enemigos, crea increibles construcciones y diviertete sin limites.</p> 
+                <div class="botone d-inline-grid d-md-block">
+                  <a href="#juegos" target="_self"> 
+                    <button type="button" class="p-3 m-2 btn-danger" id="botonesinicio">Más acerca del juego</button>
+                  </a>
+                  <a href="https://www.minecraft.net/es-es" target="_blank"> 
+                    <button type="button" class="p-3 m-2 btn-danger" id="botonesinicio"> Descargar Ahora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/valorantCarrusel.png" class="d-block w-100" alt="..." id = "imgg">
+              <div class="carousel-caption  d-md-block">
+                <h1>VALORANT</h1>
+                <p>Valorant es un juego de disparos en primera persona en el que dos equipos de cinco jugadores se enfrentan entre ellos.  Diviertete con tus amigos y para ganar pon a spike en determinado lugar.</p>
+                <div class="botone d-inline-grid d-md-block">
+                  <a href="#juegos" target="_self"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio">Más acerca del juego</button>
+                  </a>
+                  <a href="https://playvalorant.com/es-mx/" target="_blank"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio">Descargar Ahora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/robloxCarrusel.png" class="d-block w-100" alt="..." id = "imgg">
+              <div class="carousel-caption  d-md-block">
+                <h1>ROBLOX</h1>
+                <p>Roblox es un juego multijugador gratuito online y social. Juega con mas usuarios y puedes concectarte a diferentes  mundos creados por otros jugadore de diferentes tipos no olvides crear el tuyo y divierte.</p>
+                <div class="botone d-inline-grid d-md-block">
+                  <a href="#juegos" target="_self"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio">Más acerca del juego</button>
+                  </a>
+                  <a href="https://www.roblox.com/" target="_blank"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio"> Descargar Ahora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/isaacinfo.jpg" class="d-block w-100" alt="..." id = "imgg">
+              <div class="carousel-caption d-md-block">
+                <h1>THE BINDING OF ISAAC</h1>
+                <p>The Binding of Isaac es un juego de acción RPG con fuertes elementos de tipo Roguelike, en el cual los niveles son generados aleatoriamente. En el transcurso del viaje de un niño llamado Isaac, los jugadores encontrarán extraños tesoros que cambiarán la forma de Isaac, le darán habilidades y poderes sobrehumanos que le permitirán luchar contra hordas de criaturas aterradoras y diabólicas, descubrir secretos y abrirse camino a su supervivencia. </p>
+                <div class="botone d-inline-grid d-md-block">
+                  <a href="#juegos" target="_self"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio">Más acerca del juego</button>
+                  </a>
+                  <a href="https://www.xbox.com/es-CO/games/store/the-binding-of-isaac-rebirth/bqd45pqr4f4j" target="_blank"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio"> Descargar Ahora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/TerrariaCarrusel.jpg" class="d-block w-100" alt="..." id = "imgg">
+              <div class="carousel-caption  d-md-block">
+                <h1>TERRARIA</h1>
+                <p>Terraria es un videojuego de mundo abierto en 2D. Contiene elementos de construcción, exploración, aventura y combate, muy similar a juegos clásicos de la consola Super NES, como por ejemplo la serie Metroid, y a otras entregas no tan antiguas como Minecraft. El juego comienza en un mundo creado de forma aleatoria.</p>
+                <div class="botone d-inline-grid d-md-block">
+                  <a href="#juegos" target="_self"> 
+                    <button type="button" class="p-3 m-2" id="botonesinicio">Más acerca del juego</button>
+                  </a>
+                  <a href="https://terraria.org/" target="_blank"> 
+                  <button type="button" class="p-3 m-2" id="botonesinicio"> Descargar Ahora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+          
+    
+    </section>
+    <section>
+        <!-- juegos favoritos -->
+        <a name="Diviertete"></a>
+        <div id="container2" class="py-5">
+          <h2 id="titulo2" class="text-center py-5 ">Descubre tu siguiente juego favorito</h2>
+            <!-- carrusel -->
+            
+          <div id="carouselExampleControlsNoTouching" class="carousel slide d-none d-md-block" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="aea d-flex justify-content-center">
+                  <div class="ffg">
+                    <img src="img/lol.jpg" class=" img-fluid" id="imge2" alt="..." id="imgfav">
+                    <div class="favin">
+                    <h3>League of Legends</h3>
+                    <p>Juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro</p>
+                    
+                    <a href="https://signup.leagueoflegends.com/es-mx/signup/index?gclid=CjwKCAiAr4GgBhBFEiwAgwORraHWMWmupkjjbXUsgGhYa8V_gDoIZt5djwdU3pXIuhxXNVa5RF_-2xoCsw0QAvD_BwE&gclsrc=aw.ds#/" target="_blank" >
+                      <button class="p-2">Descargar Ahora</button>
+                    </a>
+                  </div>
+                  </div>
+                  <div class="ffg d-none d-md-block">
+                    <img src="img/sims4.webp" class=" img-fluid"  alt="..." id="imgfav">
+                    <div class="favin">
+                      <h3>Los Sims 4</h3>
+                      <p>Juego de simulación de vida interactivo para un solo jugador que te da el poder de crear y controlar tu propio personaje de Sims. Puede crear familias, construir viviendas y realizar diversas actividades del día a día como dormir, comer, trabajar, etc.</p>
+                      <a href="https://www.ea.com/es/games/the-sims/the-sims-4" target="_blank" >
+                        <button class="p-2">Descargar Ahora</button>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="ffg d-none d-lg-block">
+                    <img src="img/fallguys.jpg" class=" img-fluid" alt="..." id="imgfav">
+                    <div class="favin">
+                      <h3>Fall Guys</h3>
+                      <p>Esun party royale gratuito, multiplataforma y multijugador masivo en el que tú y tus contrincantes compiten en caóticas rondas repletas de obstáculos absurdos hasta que solo quede un ganador.</p>
+                      <a href="https://store.epicgames.com/es-ES/p/fall-guys" target="_blank" >
+                        <button class="p-2">Descargar Ahora</button>
+                      </a> 
+                    </div>
+                  </div>
+                  <div class="ffg d-none d-xl-block">
+                    <img src="img/lfdead2.jpeg" class=" img-fluid " alt="..." id="imgfav">
+                    <div class="favin">
+                      <h3>Left for Dead 2</h3>
+                      <p>Es un videojuego de disparos en primera persona cooperativo de tipo videojuego de terror, con una hstoria y personajes interesantes, al igual que sus modos de juego.</p>
+                      <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/" target="_blank" >
+                        <button class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="aea d-flex justify-content-center">
+                  <div class="ffg">
+                    <img src="img/apex.webp" class="img-fluid" alt="..." id="imgfav">
+                    <div class="favin">
+                        <h3>Apex </h3>
+                        <p>Es un videojuego gratuito perteneciente a los géneros battle royale y hero shooter en primera persona, desarrollado por Respawn Entertainment y publicado por Electronic Arts.</p>
+                        <a href="https://www.ea.com/es-es/games/apex-legends" target="_blank" >
+                          <button class="p-2">Descargar Ahora</button>
+                        </a>
+                        
+                      </div>
+                  </div>
+                  <div class="ffg d-none d-md-block">
+                    <img src="img/hogwarts.jpeg" class=" img-fluid" alt="..." id="imgfav">
+                    <div class="favin">
+                        <h3>Hogwarts Legacy</h3>
+                        <p>Es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter. Disfruta del Hogwarts del siglo XIX.</p>
+                        <a href="https://www.hogwartslegacy.com/es-es" target="_blank">
+                        <button class="p-2">Adquirir Ahora</button>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="ffg d-none d-lg-block">
+                    <img src="img/rocket.jpeg" class="img-fluid" alt="..." id="imgfav">
+                    <div class="favin">
+                        <h3>Rocket League</h3>
+                        <p>Combina el fútbol de estilo arcade con el caos a cuatro ruedas, unos controles fáciles y una competición fluida y basada en la física. </p>
+                        <a href="https://store.epicgames.com/es-ES/p/rocket-league" target="_blank" >
+                          <button class="p-2">Descargar Ahora</button>
+                        </a>
+                        
+                      </div>
+                  </div>
+                  <div class="ffg d-none d-xl-block">
+                    <img src="img/Ark.jpg" class="img-fluid" alt="..." id="imgfav">
+                    <div class="favin">
+                        <h3>Ark</h3>
+                        <p> Es un videojuego de acción-aventura y supervivencia, Despiertas en la orilla de una isla misteriosa en la que debes aprender a sobrevivir. Usa tu inteligencia para matar o domar a las criaturas primitivas que vagan por el lugar.</p>
+                        <a href="https://store.epicgames.com/es-ES/p/ark" target="_blank" >
+                          <button class="p-2">Adquirir Ahora</button>
+                        </a>
+                      
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+              <div class="aea d-flex justify-content-center">
+                <div class="ffg">
+                  <img src="img/callofDuty.jpg" class="img-fluid" alt="..." id="imgfav">
+                  <div class="favin">
+                      <h3>Call of Duty</h3>
+                      <p> Es un videojuego de disparos en primera persona de estilo bélico, uego cruzado, mapas gratis, y un motor gráfico que supone el avance técnico más importante en la historia de los shooters.</p>
+                      <a href="https://www.callofduty.com/es/modernwarfare" target="_blank" rel="noopener noreferrer">
+                      <button class="p-2" >Adquirir Ahora</button>
+                      </a>
+                    </div>
+                </div>
+                <div class="ffg d-none d-md-block">
+                  <img src="img/gtaV.jpg" class="img-fluid" alt="..." id="imgfav">
+                  <div class="favin">
+                      <h3>Grand Theft Auto V</h3>
+                      <p>Es un videojuego de acción-aventura de mundo abierto en tercera persona, un universo dinámico y en constante evolución para hasta 30 jugadores. </p>
+                      <a href="https://www.rockstargames.com/es/gta-v" target="_blank" rel="noopener noreferrer">
+                        <button class="p-2" >Adquirir Ahora</button>
+                      </a>
+                    </div>
+                </div>
+                <div class="ffg d-none d-lg-block">
+                  <img src="img/haloinfinite.jpg" class="img-fluid" alt="..." id="imgfav">
+                  <div class="favin">
+                      <h3>Halo Infinite</h3>
+                      <p>Disfruta de una nueva historia de HALO en el universo que apareció por primera vez en el juego de Xbox, dramatizando el conflicto épico entre la humanidad y una amenaza alienígena, el Covenant.</p>
+                      
+                      <a href="https://www.xbox.com/es-CO/games/halo-infinite" target="_blank" rel="noopener noreferrer">
+                        <button class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                </div>
+                <div class="ffg d-none d-xl-block">
+                  <img src="img/amogus.jpeg" class=" img-fluid" alt="..." id="imgfav">
+                  <div class="favin">
+                      <h3>Among us</h3>
+                      <p>Es un juego para 4 a 15 jugadores en línea  en el que tienen que preparar su nave espacial para el despegue. Pero, cuidado: ¡uno o más jugadores elegidos al azar entre la tripulación son impostores dispuestos a matar al resto!</p> 
+                      <a href="https://store.epicgames.com/es-ES/p/among-us" target="_blank" rel="noopener noreferrer"> 
+                        <button  class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                </div>
+              </div>
+              </div>
+              </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden ">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+
+            <!-- carrusel movil -->
+            
+          <div id="carouselExampleControls" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/lol.jpg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>League of Legends</h3>
+                      <p>Juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro</p>
+                      <a href="https://signup.leagueoflegends.com/es-mx/signup/index?gclid=CjwKCAiAr4GgBhBFEiwAgwORraHWMWmupkjjbXUsgGhYa8V_gDoIZt5djwdU3pXIuhxXNVa5RF_-2xoCsw0QAvD_BwE&gclsrc=aw.ds#/" target="_blank" >
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/sims4.webp" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Los Sims 4</h3>
+                      <p>Juego de simulación de vida interactivo para un solo jugador que te da el poder de crear y controlar tu propio personaje de Sims. Puede crear familias, construir viviendas y realizar diversas actividades del día a día como dormir, comer, trabajar, etc.</p>
+                      <a href="https://www.ea.com/es/games/the-sims/the-sims-4" target="_blank" >
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/fallguys.jpg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Fall Guys</h3>
+                      <p>Es un party royale gratuito, multiplataforma y multijugador masivo en el que tú y tus contrincantes compiten en caóticas rondas repletas de obstáculos absurdos hasta que solo quede un ganador.</p>
+                      <a href="https://store.epicgames.com/es-ES/p/fall-guys" target="_blank" >
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a> 
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/lfdead2.jpeg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Left for Dead 2</h3>
+                      <p>Es un videojuego de disparos en primera persona cooperativo de tipo videojuego de terror, con una hstoria y personajes interesantes, al igual que sus modos de juego.</p>
+                      <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/" target="_blank" >
+                        <button  class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/apex.webp" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Apex</h3>
+                      <p>Es un videojuego gratuito perteneciente a los géneros battle royale y hero shooter en primera persona, desarrollado por Respawn Entertainment y publicado por Electronic Arts.</p>
+                      <a href="https://www.ea.com/es-es/games/apex-legends" target="_blank" >
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a>>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/hogwarts.jpeg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Hogwarts</h3>
+                      <p>Es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter. Disfruta del Hogwarts del siglo XIX.</p>
+                      <a href="https://www.hogwartslegacy.com/es-es" target="_blank">
+                        <button  class="p-2">Adquirir Ahora</button>
+                        </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/rocket.jpeg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Rocket League</h3>
+                      <p>Combina el fútbol de estilo arcade con el caos a cuatro ruedas, unos controles fáciles y una competición fluida y basada en la física.</p>
+                      <a href="https://store.epicgames.com/es-ES/p/rocket-league" target="_blank" >
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/Ark.jpg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Ark</h3>
+                      <p>Es un juego gratuito de disparos de héroes en el que competidores de la Frontera forman equipos y luchan por la gloria, la fama y la fortuna.</p>
+                      <a href="https://store.epicgames.com/es-ES/p/ark" target="_blank" >
+                        <button  class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/callofDuty.jpg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Call of Duty</h3>
+                      <p>Es un videojuego de disparos en primera persona de estilo bélico, uego cruzado, mapas gratis, y un motor gráfico que supone el avance técnico más importante en la historia de los shooters.</p>
+                      <a href="https://www.callofduty.com/es/modernwarfare" target="_blank" rel="noopener noreferrer">
+                      <button  class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/gtaV.jpg" class="d-block img-fluid" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Grand Theft Auto V</h3>
+                      <p>Es un videojuego de acción-aventura de mundo abierto en tercera persona, un universo dinámico y en constante evolución para hasta 30 jugadores. </p>
+                      <a href="https://www.rockstargames.com/es/gta-v" target="_blank" rel="noopener noreferrer">
+                        <button  class="p-2">Descargar Ahora</button>
+                      </a>
+                    </div>
+                   
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/haloinfinite.jpg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Halo Infinite</h3>
+                      <p>Disfruta de una nueva historia de HALO en el universo que apareció por primera vez en el juego de Xbox, dramatizando el conflicto épico entre la humanidad y una amenaza alienígena, el Covenant.</p>
+                      
+                      <a href="https://www.xbox.com/es-CO/games/halo-infinite" target="_blank" rel="noopener noreferrer">
+                        <button  class="p-2">Adquirir Ahora</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="aea d-flex justify-content-center">
+                    <div class="ffg">
+                      <img src="img/amogus.jpeg" class="d-block img-fluid" id="imge2" alt="..." id="imgfav">
+                      <div class="favin">
+                      <h3>Among Us</h3>
+                      <p>Es un juego para 4 a 15 jugadores en línea  en el que tienen que preparar su nave espacial para el despegue. Pero, cuidado: ¡uno o más jugadores elegidos al azar entre la tripulación son impostores dispuestos a matar al resto!</p> 
+                      <a href="https://store.epicgames.com/es-ES/p/among-us" target="_blank" rel="noopener noreferrer"> 
+                        <button  class="p-2">Adquirir Ahora</button>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+    </section>
+    <section>
+      <a name="juegos"></a>
+        <div id="container3"  class="py-5" > 
+          <div class=" interno mx-5 "> 
+            <div class="labels d-block d-lg-none pt-4 d-flex gap-3 justify-content-center" id="LV"> 
+              <label for="valorantcheck" id="LV1"> 
+                Valorant
+              </label>
+              <label for="Isaaccheck" id="LI">
+                Isaac
+              </label>
+              <label for="Minecraftcheck" id="MI">
+                Minecraft
+              </label>
+              <label for="Robloxcheck" id="RI">
+                Roblox
+              </label>
+              <label for="Terrariacheck" id="TI">
+                Terraria
+              </label>
+            </div>
+        
+            <input type="radio" name="my-input" id="valorantcheck" checked >
+              <div id="contineall1" class="contineall d-flex flex-lg-row flex-column col-12 ">
+                
+                <div id="contizq" class=" col-lg-7 col-12 ">
+                  <div class="imageninfos">
+                    <img id="infos" class="py-5" src="img/valorantinfo.jpeg" alt="">
+                  </div>
+                </div>
+                <div id="contderecha" class="col-lg-5 col-12 px-4 d-flex flex-column justify-content-center">
+                  <div id="cntinfdere">
+                      <div class="labels d-none d-lg-block d-flex gap-2 " id="LV"> 
+                        <label for="valorantcheck" id="LV1"> 
+                          Valorant
+                        </label>
+                        <label for="Isaaccheck" id="LI">
+                          Isaac
+                        </label>
+                        <label for="Minecraftcheck" id="MI">
+                          Minecraft
+                        </label>
+                        <label for="Robloxcheck" id="RI">
+                          Roblox
+                        </label>
+                        <label for="Terrariacheck" id="TI">
+                          Terraria
+                        </label>
+                      </div>
+                      <div class="padre">
+                      <h1 class="text-white ">VALORANT</h1>
+                      </div>
+                      <h6 class="text-white text-center text-lg-start">Disponible versión 2023</h6>
+                      <div class="d-flex justify-content-center justify-content-lg-start">
+                        <button class="px-3"> Consola-Pc</button>
+                      </div>
+                    <p class="text-white pt-3 ">Valorant es un hero shooter en primera persona multijugador gratuito desarrollado y publicado por Riot Games. El juego se anunció por primera vez con el nombre en clave Project A en octubre de 2019. Fue lanzado para Microsoft Windows el 2 de junio de 2020 después de su beta cerrada lanzada el 7 de abril de 2020. Valorant se inspira en la serie de videojuegos de disparos táctico Counter-Strike y toma prestadas varias mecánicas, como el menú de compra, los patrones de spray y la imprecisión al moverse.  </p>
+                  </div>
+                </div>
+                  
+              </div>
+              <input type="radio" name="my-input" id="Isaaccheck" >
+              <div id="contineall2" class="contineall d-flex flex-lg-row flex-column col-12">
+                
+                <div id="contizq" class=" col-lg-7 col-12 ">
+                  <div class="imageninfos">
+                    <img id="infos" class="py-5" src="img/isaacinfo.jpg" alt="">
+                  </div>
+                </div>
+                <div id="contderecha" class="col-lg-5 px-4 col-12 d-flex flex-column justify-content-center">
+                  <div id="cntinfdere">
+                    <div class="labels d-none d-lg-block" id="LV"> 
+                      <label for="valorantcheck" id="LV1"> 
+                        Valorant
+                      </label>
+                      <label for="Isaaccheck" id="LI">
+                        Isaac
+                      </label>
+                      <label for="Minecraftcheck" id="MI">
+                        Minecraft
+                      </label>
+                      <label for="Robloxcheck" id="RI">
+                        Roblox
+                      </label>
+                      <label for="Terrariacheck" id="TI">
+                        Terraria
+                      </label>
+                    </div>
+                     <h1 class="text-white ">ISAAC</h1>
+                    <h6 class="text-white text-center text-lg-start">Disponible versión 12.05</h6>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                      <button class="px-3"> Consola-Pc</button>
+                    </div>
+                       <p class="text-white pt-3 "> The Binding of Isaac es un juego de acción RPG con fuertes elementos de tipo Roguelike, en el cual los niveles son generados aleatoriamente. En el transcurso del viaje de un niño llamado Isaac, los jugadores encontrarán extraños tesoros que cambiarán la forma de Isaac, le darán habilidades y poderes sobrehumanos que le permitirán luchar contra hordas de criaturas aterradoras y diabólicas, descubrir secretos y abrirse camino a su supervivencia. El título e historia están inspiradas en un el relato bíblico.  </p>
+                       
+                  </div> 
+                </div>
+                  
+              </div>
+                <input type="radio" name="my-input" id="Minecraftcheck" >
+              <div id="contineall3" class="contineall d-flex flex-lg-row flex-column col-12">
+                
+                <div id="contizq" class=" col-lg-7 col-12 ">
+                  <div class="imageninfos">
+                    <img id="infos" class="py-5" src="img/minecraftinfo.jpg" alt="">
+                  </div>
+                </div>
+                <div id="contderecha" class="col-lg-5 px-4 col-12 d-flex flex-column justify-content-center">
+                  <div id="cntinfdere">
+                    <div class="labels d-none d-lg-block d-flex gap-2" id="LV"> 
+                      <label for="valorantcheck" id="LV1"> 
+                        Valorant
+                      </label>
+                      <label for="Isaaccheck" id="LI">
+                        Isaac
+                      </label>
+                      <label for="Minecraftcheck" id="MI">
+                        Minecraft
+                      </label>
+                      <label for="Robloxcheck" id="RI">
+                        Roblox
+                      </label>
+                      <label for="Terrariacheck" id="TI">
+                        Terraria
+                      </label>
+                    </div>
+                    
+                    <h1 class="text-white ">MINECRAFT</h1>
+                    <h6 class="text-white text-center text-lg-start">Disponible versión Minecraft: Java Edition: 1.19.3</h6>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                      <button class="px-3"> Consola-Pc-X-box-Movil</button>
+                    </div>
+                   
+                    <p class="text-white pt-3 ">Minecraft es un juego de mundo abierto, y no tiene un fin claramente definido. Esto permite una gran libertad en cuanto a la elección de su forma de jugar. A pesar de ello, el juego posee un sistema que otorga logros por completar ciertas acciones.
+                      El juego se centra en la colocación y destrucción de bloques, siendo que este se compone de objetos tridimensionales cúbicos, colocados sobre un patrón de rejilla fija. Estos cubos o bloques representan principalmente distintos elementos de la naturaleza.​ </p>
+                  </div>
+                </div>
+                  
+              </div>
+              <input type="radio" name="my-input" id="Robloxcheck" >
+              <div id="contineall4" class="contineall d-flex flex-lg-row flex-column col-12">
+                
+                <div id="contizq" class=" col-lg-7 col-12 ">
+                  <div class="imageninfos">
+                    <img id="infos" class="py-5" src="img/robloxinfo.jpg" alt="">
+                  </div>
+                </div>
+                <div id="contderecha" class="col-lg-5 px-4 col-12 d-flex flex-column justify-content-center">
+                  <div id="cntinfdere">
+                    <div class="labels d-none d-lg-block d-flex gap-2" id="LV"> 
+                      <label for="valorantcheck" id="LV1"> 
+                        Valorant
+                      </label>
+                      <label for="Isaaccheck" id="LI">
+                        Isaac
+                      </label>
+                      <label for="Minecraftcheck" id="MI">
+                        Minecraft
+                      </label>
+                      <label for="Robloxcheck" id="RI">
+                        Roblox
+                      </label>
+                      <label for="Terrariacheck" id="TI">
+                        Terraria
+                      </label>
+                    </div>
+                    
+                    <h1 class="text-white ">ROBLOX</h1>
+                    <h6 class="text-white text-center text-lg-start ">Disponible versión 0.533.0.5330256 (Cliente de Roblox)</h6>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                      <button class="px-3"> Consola-Pc-Movil</button>
+                    </div>
+                    <p class="text-white pt-3 ">Roblox es una plataforma de videojuegos en línea dónde los usuarios pueden crear sus propios mundos virtuales. Desarrollado por Roblox Corporation y disponible en ordenadores, teléfonos móviles y consolas. Es una versión sandbox y el lenguaje de programación que se utiliza es Lua.rbx, que viene a ser una modificación al lenguaje de programación Lua originalmente hecha solamente para la plataforma pero que ahora es de código abierto e interactuar con otros usuarios.</p>
+                  </div>
+                </div>
+                  
+              </div>
+              <input type="radio" name="my-input" id="Terrariacheck" >
+              <div id="contineall5" class="contineall d-flex flex-lg-row flex-column col-12">
+                
+                <div id="contizq" class=" col-lg-7 col-12 ">
+                  <div class="imageninfos">
+                    <img id="infos" class="py-5" src="img/terrariainfo.jpg" alt="">
+                  </div>
+                </div>
+                <div id="contderecha" class="col-lg-5 px-4 col-12 d-flex flex-column justify-content-center">
+                  <div id="cntinfdere">
+                    <div class="labels d-none d-lg-block d-flex gap-2" id="LV"> 
+                      <label for="valorantcheck" id="LV1"> 
+                        Valorant
+                      </label>
+                      <label for="Isaaccheck" id="LI">
+                        Isaac
+                      </label>
+                      <label for="Minecraftcheck" id="MI">
+                        Minecraft
+                      </label>
+                      <label for="Robloxcheck" id="RI">
+                        Roblox
+                      </label>
+                      <label for="Terrariacheck" id="TI">
+                        Terraria
+                      </label>
+                    </div>
+                    <a name="juegos5"></a>
+                    <h1 class="text-white ">TERRARIA</h1>
+                    <h6 class="text-white text-center text-lg-start ">Disponible versión [1.4.4.91]</h6>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                    <button class="px-3"> Consola-Pc-Movil</button>
+                    </div>
+                    <p class="text-white pt-3 ">Terraria es un videojuego de mundo abierto en 2D. Contiene elementos de construcción, exploración, aventura y combate.
+                      El juego comienza en un mundo creado de forma aleatoria. El usuario puede personalizar a su personaje además el jugador tiene a su disposición herramientas de distintos tipos, las cuales sirven para moldear el mundo y trabajar los recursos que el jugador encuentre (tales como minerales). Así mismo, el jugador inicia con una cantidad limitada de vida y puntos de magia, los cuales puede incrementar.  </p>
+                  </div>
+                </div>
+                  
+              </div>
+             
+          </div>
+          
+            
+          </div>
+          
+    </section>
+    <section>
+        <!-- creadores de juegos -->
+        <div id="container4">
+          <div class="d-none d-lg-block">
+            <div class="iconitosjueg gap-3 gap-xl-5 mx-5 d-flex ">
+              <!-- aca van los iconos de juegos circulares:3 -->
+              <img src="img/mclogo.avif" class=" rounded-circle" id="logos" >
+              <img src="img/valorantlogo.png" class="img-fluid rounded-circle" id="logos" >
+              <img src="img/Robloxlogo.jpg" class="img-fluid rounded-circle" id="logos" >
+              <img src="img/isaaclogo.jpg" class="img-fluid rounded-circle" id="logos" >
+              <img src="img/terrarialogo.png" class="img-fluid rounded-circle" id="logos" >
+              <img src="img/lollogo.jpg" class="img-fluid rounded-circle" id="logos" >
+            </div>
+          </div>
+          <a name="Desarrolladores"></a>
+          <div class="acordeon">
+            <div class="txxt">
+              <h1 class="text-center text-lg-start">Creadores de los mayores exitos</h1>
+            </div>
+          <div class="acorde py-5 ">
+            <div class="d-grid col-md-12 d-md-flex">
+              <div class="accordion accordion-flush w-100 d-grid d-md-flex justify-content-center h-md-100" id="accordionFlushExample">
+                <div class="accordion-item  bg-dark" id="figure">
+                    <img src="img/creaminec.webp" class="img-fluid" id="ssd" >
+                    <div class="cinf">
+                      <h2>Markus Persson</h2>
+                      <p class="px-3">Markus Persson; nacio en Estocolmo, Suecia; 1 de junio de 1979 más conocido como Notch, es un exdesarrollador de videojuegos independientes sueco, exjefe y fundador de la compañía de videojuegos Mojang Studios. Principalmente es conocido por ser el creador y antiguo desarrollador del videojuego Minecraft,​ el cual vendió a Microsoft por un valor de 2500 millones de dólares.</p>
+                    </div>
+                </div>
+                <div class="accordion-item  bg-dark" id="figure">
+                  <img src="img/creavalor.webp" class="img-fluid" id="ssd" >
+                  <div class="cinf">
+                    <h2>Joe Ziegler</h2>
+                    <p class="px-3">Después de ocho años de trabajar como director de juegos en Riot Games, Joe Ziegler anunció que dejará atrás su etapa como Director de Valorant. Ziegler dice que ahora es director de juegos en Bungie, queda por ver si eso está relacionado con el juego FPS actualmente popular de Bungie, Destiny, o con una nueva IP. Ziegler ha ayudado a liderar el equipo Valorant de Riot durante más de ocho años. Primero se unió a Riot como diseñador de juegos en 2010, luego de trabajar en Pandemic Studios y Killspace Entertainment, donde trabajó en roles de diseño y dirección.</p>
+                  </div>
+                </div>
+                <div class="accordion-item  bg-dark" id="figure">
+                  <img src="img/crearoblo.jpg" class="img-fluid" id="ssd" >
+                    <div class="cinf">
+                      <h2>David Baszucki</h2>
+                      <p class="px-3">David Baszucki (Canadá, 20 de enero de 1963), es un empresario, ingeniero en software e inventor estadounidense nacido en Canadá. Es el cofundador (junto con Erik Cassel) y CEO de Roblox Corporation. Anteriormente se desempeñó como CEO de Knowledge Revolution, que fue adquirida por MSC Software en diciembre de 1998.
+
+                        Fue nombrado uno de los 100 empresarios más fascinantes de 2017, 2018 y 2019 por Goldman Sachs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item  bg-dark" id="figure">
+                  <img src="img/creaisaac.jpg" class="img-fluid" id="ssd" >
+                  <div class="cinf">
+                    <h2>Edmund McMillen </h2>
+                    <p class="px-3">Edmund Charles McMillen es un diseñador y artista de videojuegos estadounidense conocido por su estilo visual de juegos Flash. Sus trabajos más notables incluyen el juego de desplazamiento lateral Super Meat Boy de 2010 y el juego roguelike de 2011 The Binding of Isaac y su nueva versión de 2014.</p>
+                  </div>
+                </div>
+                <div class="accordion-item  bg-dark" id="figure">
+                  <img src="img/creaTerr.webp" class="img-fluid" id="ssd" >
+                  <div class="cinf">
+                    <h2>Andrew Spinks</h2>
+                    <p class="px-3" >Andrew Spinks (conocido como Redigit), es uno de los principales desarrolladores de Terraria y director de Re-Logic.
+
+                      (12 de noviembre de 1983)Tiene actualmente 36 años y vive en Indiana.
+                      
+                      Antes de su trabajo en Terraria, fue el programador principal del video-juego Super Mario Bros X. Durante el febrero del 2012, había dejado el estudio pero en enero del 2013 informó que volvería Re-Logic a trabajar en las actualizaciones. </p>
+                  </div>
+                </div>
+                <div class="accordion-item  bg-dark" id="figure">
+                  <img src="img/crealol.jpeg" class="img-fluid" id="ssd" >
+                  <div class="cinf">
+                    <h2>Marc Merrill</h2>
+                    <p class="px-3">Marc Merrill es cofundador, copresidente y presidente de Games for Riot Games, el desarrollador y editor de juegos detrás de League of Legends. Marc cofundó Riot, junto con Brandon Beck, en 2006 con la visión y el compromiso de cambiar drásticamente la forma en que se desarrollan, entregan y respaldan los videojuegos para los jugadores. Desde entonces, ha ayudado a League of Legends a convertirse en el juego en línea más jugado del mundo. </p>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    
+  <section>
+    </section>
+    <section>
+        <!-- mini seccion con boton -->
+        <div id="conteiner5">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <p class="d-none d-lg-block pb text-white pt-5 m-0">Con GameForce puedes instalar juegos interplataformas para diferentes dispositivos, conoce todos nuestros juegos.</p>
+            <p class="text-white d-block d-lg-none pt-5 m-0">Conoce todos nuestros juegos</p>
+            <div class="iconosc5 d-flex gap-3 py-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"  fill="white" class="bi bi-playstation" viewBox="0 0 16 16">
+                <path d="M15.858 11.451c-.313.395-1.079.676-1.079.676l-5.696 2.046v-1.509l4.192-1.493c.476-.17.549-.412.162-.538-.386-.127-1.085-.09-1.56.08l-2.794.984v-1.566l.161-.054s.807-.286 1.942-.412c1.135-.125 2.525.017 3.616.43 1.23.39 1.368.962 1.056 1.356ZM9.625 8.883v-3.86c0-.453-.083-.87-.508-.988-.326-.105-.528.198-.528.65v9.664l-2.606-.827V2c1.108.206 2.722.692 3.59.985 2.207.757 2.955 1.7 2.955 3.825 0 2.071-1.278 2.856-2.903 2.072Zm-8.424 3.625C-.061 12.15-.271 11.41.304 10.984c.532-.394 1.436-.69 1.436-.69l3.737-1.33v1.515l-2.69.963c-.474.17-.547.411-.161.538.386.126 1.085.09 1.56-.08l1.29-.469v1.356l-.257.043a8.454 8.454 0 0 1-4.018-.323Z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-xbox" viewBox="0 0 16 16">
+                <path d="M7.202 15.967a7.987 7.987 0 0 1-3.552-1.26c-.898-.585-1.101-.826-1.101-1.306 0-.965 1.062-2.656 2.879-4.583C6.459 7.723 7.897 6.44 8.052 6.475c.302.068 2.718 2.423 3.622 3.531 1.43 1.753 2.088 3.189 1.754 3.829-.254.486-1.83 1.437-2.987 1.802-.954.301-2.207.429-3.239.33Zm-5.866-3.57C.589 11.253.212 10.127.03 8.497c-.06-.539-.038-.846.137-1.95.218-1.377 1.002-2.97 1.945-3.95.401-.417.437-.427.926-.263.595.2 1.23.638 2.213 1.528l.574.519-.313.385C4.056 6.553 2.52 9.086 1.94 10.653c-.315.852-.442 1.707-.306 2.063.091.24.007.15-.3-.319Zm13.101.195c.074-.36-.019-1.02-.238-1.687-.473-1.443-2.055-4.128-3.508-5.953l-.457-.575.494-.454c.646-.593 1.095-.948 1.58-1.25.381-.237.927-.448 1.161-.448.145 0 .654.528 1.065 1.104a8.372 8.372 0 0 1 1.343 3.102c.153.728.166 2.286.024 3.012a9.495 9.495 0 0 1-.6 1.893c-.179.393-.624 1.156-.82 1.404-.1.128-.1.127-.043-.148ZM7.335 1.952c-.67-.34-1.704-.705-2.276-.803a4.171 4.171 0 0 0-.759-.043c-.471.024-.45 0 .306-.358A7.778 7.778 0 0 1 6.47.128c.8-.169 2.306-.17 3.094-.005.85.18 1.853.552 2.418.9l.168.103-.385-.02c-.766-.038-1.88.27-3.078.853-.361.176-.676.316-.699.312a12.246 12.246 0 0 1-.654-.319Z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-android2" viewBox="0 0 16 16">
+                <path d="m10.213 1.471.691-1.26c.046-.083.03-.147-.048-.192-.085-.038-.15-.019-.195.058l-.7 1.27A4.832 4.832 0 0 0 8.005.941c-.688 0-1.34.135-1.956.404l-.7-1.27C5.303 0 5.239-.018 5.154.02c-.078.046-.094.11-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.697 3.697 0 0 0 3.5 5.02h9c0-.75-.208-1.44-.623-2.072a4.266 4.266 0 0 0-1.664-1.476ZM6.22 3.303a.367.367 0 0 1-.267.11.35.35 0 0 1-.263-.11.366.366 0 0 1-.107-.264.37.37 0 0 1 .107-.265.351.351 0 0 1 .263-.11c.103 0 .193.037.267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264Zm4.101 0a.351.351 0 0 1-.262.11.366.366 0 0 1-.268-.11.358.358 0 0 1-.112-.264c0-.103.037-.191.112-.265a.367.367 0 0 1 .268-.11c.104 0 .19.037.262.11a.367.367 0 0 1 .107.265c0 .102-.035.19-.107.264ZM3.5 11.77c0 .294.104.544.311.75.208.204.46.307.76.307h.758l.01 2.182c0 .276.097.51.292.703a.961.961 0 0 0 .7.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182c0 .276.097.51.292.703a.972.972 0 0 0 .71.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76c.291 0 .54-.103.749-.308.207-.205.311-.455.311-.75V5.365h-9v6.404Zm10.495-6.587a.983.983 0 0 0-.702.278.91.91 0 0 0-.293.685v4.063c0 .271.098.501.293.69a.97.97 0 0 0 .702.284c.28 0 .517-.095.712-.284a.924.924 0 0 0 .293-.69V6.146a.91.91 0 0 0-.293-.685.995.995 0 0 0-.712-.278Zm-12.702.283a.985.985 0 0 1 .712-.283c.273 0 .507.094.702.283a.913.913 0 0 1 .293.68v4.063a.932.932 0 0 1-.288.69.97.97 0 0 1-.707.284.986.986 0 0 1-.712-.284.924.924 0 0 1-.293-.69V6.146c0-.264.098-.491.293-.68Z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-pc-display" viewBox="0 0 16 16">
+                <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-nintendo-switch" viewBox="0 0 16 16">
+                <path d="M9.34 8.005c0-4.38.01-7.972.023-7.982C9.373.01 10.036 0 10.831 0c1.153 0 1.51.01 1.743.05 1.73.298 3.045 1.6 3.373 3.326.046.242.053.809.053 4.61 0 4.06.005 4.537-.123 4.976-.022.076-.048.15-.08.242a4.136 4.136 0 0 1-3.426 2.767c-.317.033-2.889.046-2.978.013-.05-.02-.053-.752-.053-7.979Zm4.675.269a1.621 1.621 0 0 0-1.113-1.034 1.609 1.609 0 0 0-1.938 1.073 1.9 1.9 0 0 0-.014.935 1.632 1.632 0 0 0 1.952 1.107c.51-.136.908-.504 1.11-1.028.11-.285.113-.742.003-1.053ZM3.71 3.317c-.208.04-.526.199-.695.348-.348.301-.52.729-.494 1.232.013.262.03.332.136.544.155.321.39.556.712.715.222.11.278.123.567.133.261.01.354 0 .53-.06.719-.242 1.153-.94 1.03-1.656-.142-.852-.95-1.422-1.786-1.256Z"/>
+                <path d="M3.425.053a4.136 4.136 0 0 0-3.28 3.015C0 3.628-.01 3.956.005 8.3c.01 3.99.014 4.082.08 4.39.368 1.66 1.548 2.844 3.224 3.235.22.05.497.06 2.29.07 1.856.012 2.048.009 2.097-.04.05-.05.053-.69.053-7.94 0-5.374-.01-7.906-.033-7.952-.033-.06-.09-.063-2.03-.06-1.578.004-2.052.014-2.26.05Zm3 14.665-1.35-.016c-1.242-.013-1.375-.02-1.623-.083a2.81 2.81 0 0 1-2.08-2.167c-.074-.335-.074-8.579-.004-8.907a2.845 2.845 0 0 1 1.716-2.05c.438-.176.64-.196 2.058-.2l1.282-.003v13.426Z"/>
+              </svg>
+            </div>
+            <div class="d-none d-md-block pb-5">
+              <button type="button" class="btn btn-danger">Todos Nuestros Juegos :3</button>
+            </div>
+            <div class=" d-block d-md-none pb-5">
+              <button type="button" class="btn btn-danger">Nuuestros Juegos :3</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+        <!-- about us -->
+        <div id="container6">
+          <a name="aboutus"></a>
+          <div class="row text-light p-0 m-0">
+            <div class="col-lg-6 col-sm-12  justify-content-center d-flex mt-5 pt-3 order-1 order-lg-1">
+              <h1 >About US</h1>
+              
+            </div>
+            <div class="row align-items-center">
+
+            </div>
+            <div class="col-lg-6 col-sm-12 justify-content-center d-flex mt-5 pt-5 order-4 ">
+              <h1 class="border-bottom">Creadores</h1>
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center pb-5 order-2 order-lg-5" >
+              <img src="img/logo.png" width="500" alt="" class="img-fluid">
+              <p class="fs-4  pt-4 fw-bold align-text-center">GAME FORCE es la mejor página para descargar y<br> jugar juegos interplataforma, únete a nuestra <br>comunidad</p>
+              <div class=" cols-2 cols-lg-2 mt-3 d-flex gap-3 flex-column align-items-center align-items-lg-start flex-lg-row">
+                <div class="col-lg-6 col-md-12 col-lg-6 fs-2 " >  
+                  <p> <img src="img/morado.png" alt="" width="20" height="20" class="rounded-circle"> Online</p>
+                  <numero>21.905.432</numero>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-lg-6 fs-2">
+                  <p> <img src="img/verde.png" alt="" width="20" height="20" class="rounded-circle"> Playing Now</p>
+                  <numero class="">3.750.790</numero>
+                </div>
+              </div>
+              <a href="#Diviertete">
+              <button type="button" class="btn btn-danger m-4 px-5 pt-3 pb-3 fs-3 text-light">DESCARGA TUS JUEGOS</button>
+              </a>
+              <div style="background-color: #37202F;" class=" col-sm-3 w-100 pt-4 pb-4 col-lg-10 rounded-3 ">
+                <h1>UNETE A NUESTRO DISCORD</h1>
+                <div class="row row-cols-2 row-cols-lg-2 mt-3  d-flex gap-3 flex-column align-items-center align-items-lg-start flex-lg-row">
+                  
+                  <div class="col-9 col-lg-4 col-md-7 fs-2 order-1"><img class="rounded-circle col-sm-6 " src="img/discord.jpg" alt="" width="180">
+
+                  </div>
+                  <div class=" col-9 col-md-5 col-lg-7 fs-2 order-2"><div class=" rounded-pill p-5 " style="background-color: black;"> <h1>Miraculos de corazón</h1></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a name="Creadores"></a>
+            <div class="col-lg-6 col-sm-12 text-center order-5 order-lg-5"id= "psp">
+                <div class="col container-fluid" id="acor">
+                  <div id="figur">
+                  <img src="img/jesus.jpeg" alt="" class="img-fluid" id="img1" width="500">
+                  <div class="cinfo container-fluid" width="500">
+                    <h3>ElSalvador</h3>
+                    <p>Perdono nuestros pecados. Amen Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id voluptas fugit odit. Veritatis ipsum, odit illo soluta dolores neque nam consequatur fuga debitis, deleniti ratione numquam nemo molestias beatae.</p>
+                  </div>
+                  </div>
+                  <div id="figur">
+                  <img src="img/yo.jpeg" alt="" class="img-fluid" id="img2" width="500">
+                  <div class="cinfo container-fluid" width="500">
+                    <h3>ELbarao</h3>
+                    <p>Severo computador y se le traba Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, repudiandae reprehenderit distinctio voluptatum quasi itaque nobis facilis soluta ea aut fugit dolorem autem? Mollitia fugit earum aut tenetur ipsum? Autem?</p>
+                  </div>
+                  </div>
+                  <div id="figur">
+                  <img src="img/davi.jpeg" alt="" class="img-fluid" id="img3" width="500">
+                  <div class="cinfo container-fluid" width="500">
+                    <h3>ELviajero</h3>
+                    <p>Severos viajes que se hace y no invita Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minus repellendus distinctio aliquid ut dicta, quae consequatur et qui dolore ab minima aut accusantium repudiandae facilis hic tempore odit libero.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+    </section>
+    <section>
+        <!-- promociones -->
+        <div id="container7">
+
+          
+          <div class="row g-0 ">
+            <div id="carruselfinal" class="col-12 col-lg-6 col-xxl-5 px-0">
+              <h1 class="text-center text-white">Los más descargados</h1>
+            <div id="carouselExampleIndicators" class="carousel slide px-5 py-4" data-bs-ride="carousel" data-bs-touch="false" data-bs-interval="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner ">
+                <div class="carousel-item active" >
+                  <div class="d-flex justify-content-center">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/e_E9W2vsRbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">            
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/GXr5glhGkzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">          
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/27Le3kOOFQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+              <div id="imgtrailers" class="abc  d-flex justify-content-center py-5 px-3 gap-3 ">
+                <div class="zzz">
+                  <img class="rounded-3 img-fluid" src="img/trairlevalorant.webp" alt="">
+                  <div class="gfinal d-flex flex-column justify-content-around">
+                    <h3>Valorant</h3>
+                    <p>También puedes seguir contenido sobre este juego</p>
+                    <a href="https://www.twitch.tv/directory/game/VALORANT" target="_blank" rel="noopener noreferrer">
+                      <button class="btn btn-danger">Aquí</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="zzz">
+                  <img class="rounded-3 img-fluid" src="img/minecrafttrailer.webp" alt="">
+                  <div class="gfinal d-flex flex-column justify-content-around">
+                    <h3>Minecraft</h3>
+                    <p>Tambien puedes seguir a creadores de contenido sobre este juego</p>
+                    <a href="https://www.youtube.com/@dream" target="_blank" rel="noopener noreferrer">
+                      <button class="btn btn-danger" >Aquí</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="zzz">
+                  <img  class="rounded-3 img-fluid" src="img/isaactrailer.jpg" alt="">
+                  <div class="gfinal d-flex flex-column justify-content-around">
+                    <h3>Isaac</h3>
+                    <p>Tambien puedes seguir a creadores de contenido sobre este juego</p>
+                    <a href="https://www.twitch.tv/directory/game/The%20Binding%20of%20Isaac" target="_blank" rel="noopener noreferrer">
+                      <button class="btn btn-danger">Aquí</button>
+                    </a>
+                  </div>
+                </div>
+                
+                
+                
+              </div>
+              <div id="actualiza" class="mx-4 mb-5 d-none d-lg-block d-xxl-none px-0">
+                <p class="p-3 m-0 text-white">Estos juegos han sido actualizados esta semana y tienen un descuento de 65%</p>
+              </div>
+            </div>
+            
+          <div class="row col-12 col-lg-6 col-xxl-7 p-0 g-0">
+            <a name="Nuevos"></a>
+            <h1 class=" text-center text-white">Últimos video juegos agregados</h1>
+          <div id="imagenesfinales" class="col-12 px-3  col-lg-12 col-xxl-6 d-flex align-items-center">
+            <div id="imgpromosss" class="abc d-flex justify-content-center flex-wrap gap-5 align-items-center pb-5 pb-lg-0 ">
+              
+              <div class="zzz">
+                <img class="rounded-3 img-fluid" src="img/HLEGACY.png" alt="">  
+                <div class="gfinal d-flex flex-column justify-content-around">
+                <h3>Hogwarts Legacy</h3>
+                <p>Hogwarts Legacy es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter. Disfruta del Hogwarts del siglo XIX. </p>
+                <a href="https://www.twitch.tv/directory/game/Hogwarts%20Legacy" target="_blank" rel="noopener noreferrer">
+                  <button class="btn btn-danger">Creadores de Contenido </button>
+                </a>
+              </div>
+            </div> 
+            <div class="zzz"> 
+              <img class="rounded-3 img-fluid" src="img/assassinscreed.png" alt="">  
+              <div class="gfinal d-flex flex-column justify-content-around">
+              <h3>Assassins Creed</h3>   
+              <p>Experimenta una versión moderna de las características y la mecánica de juego que han definido a una franquicia durante 15 años.</p>
+              <a href="https://www.twitch.tv/directory/game/Assassin's%20Creed" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-danger"> Creadores de Contenido </button>
+              </a>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div id="imagenesfinales2" class="col-12 col-lg-12 col-xxl-6 px-3 d-flex justify-content-center d-block d-lg-none d-xxl-block">
+            <div id="imgpromosss" class="abc d-flex justify-content-center align-items-center ">
+              <div class="zzz">
+              <img id="especial" class="rounded-3 py-0 py-xxl-5 img-fluid" src="img/onepiecegame.jpg" alt="">
+              <div class="gfinal d-flex flex-column justify-content-around">
+                <h3>One Piece Odyssey</h3>
+                <p class="">One Piece Odyssey es un juego de RPG que pone a los jugadores en control de Luffy y los demás Sombreros de Paja en un mundo abierto. Puedes viajar por una isla emprendiendo misiones, explorando mazmorras, resolviendo acertijos y luchando contra criaturas en combates por turnos</p>
+                
+                <a href="https://www.twitch.tv/directory/game/One%20Piece%20Odyssey" target="_blank" rel="noopener noreferrer">
+                  <button class="btn btn-danger"> Creadores de Contenido </button>
+                </a>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+          <div id="actualiza" class="mx-4 my-5 d-block d-lg-none d-xxl-block">
+            <p class="p-4 m-0 text-white">Todos los video juegos que fueron añadidos esta semana tienen un descuesto del 65% (Promoción válida hasta el 4 de marzo del 2023)</p>
+          </div>
+          </div>
+          
+          
+          </div>
+          </div>
+     
+    </section>
+    
+    <footer>
+      <div>
+        <div class="row col-12 m-0 p-0" style="background-color: #37202F;">
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <h1 class="text-light justify-content-center d-flex  ">Siguenos</h1>
+            <div class="justify-content-center mx-5 d-flex justify-content-around ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="60" class="img-fluid mx-2" ><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="60" class="img-fluid mx-2"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="60" class="img-fluid mx-2"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="60" class="img-fluid mx-2"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="60" class="img-fluid mx-2"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"/></svg>
+            </div>
+          </div>
+          <div class="row col-sm-12   col-lg-7 col-md-5 text-light mt-5 mb-6 mb-4 ">
+            <h4>© Copyright 2023, Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en COL y otros países.</h4>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+</body>
+</html>
