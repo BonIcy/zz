@@ -185,7 +185,7 @@
 }
 @media (max-width:765px){
   #accordionFlushExample #figure .cinf{
-    font-size: 0.4rem;
+    font-size: 0.8rem;
 }
 }
 #accordionFlushExample #figure:hover > .cinf{
